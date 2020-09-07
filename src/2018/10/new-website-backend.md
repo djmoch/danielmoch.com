@@ -1,0 +1,20 @@
+title: New Website Backend
+author: Daniel Moch
+copyright: 2018, Daniel Moch
+date: 2018-10-14 15:42:53 UTC-04:00
+category: technology
+description: I've moved from a Django site to a static one powered by Nikola
+
+For those interested, I've converted this website over from a
+[Django](https://djangoproject.com) backend to
+[Nikola](https://getnikola.com). Since there aren't any interactive
+features on this site, it's clear that an engine such a Django was
+overkill and that Nikola's static generator was a better option. So
+far, so good. I especially appreciate being able to choose a
+templating engine (I went with [Jinja](http://jinja.pocoo.org), since
+it was most like Django's templating engine).
+
+If you notice anything weird or broken with the site, please hit me up
+on one of the social media links on the landing page.
+
+Cheers!
