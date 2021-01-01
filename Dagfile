@@ -1,0 +1,22 @@
+target "target" {
+	source "src" {
+		extension .md {
+			suffix /index.html {
+				require "templates/header.html"
+				require "templates/footer.html"
+				filter 'm4 -DDESCRIPTION="$(lowdown -Xdescription -Tterm $<)" -DPAGE_TITLE="$(lowdown -Xtitle -Tterm $<)" -DSLUG=https://www.danielmoch.com/$(echo $< | sed "s/^src\///;s/\.md//")/ $1 >$>'
+				filter "lowdown -Thtml $< >>$>"
+				filter "cat <$2 >>$>"
+			}
+			suffix .pdf {
+				filter "lowdown -Tms $< | /usr/local/bin/groff -ms -t -Tpdf >$>"
+			}
+		}
+		extension .scss {
+			suffix .css {
+				filter "sassc -t compressed $< $>"
+			}
+		}
+	}
+	source files
+}
