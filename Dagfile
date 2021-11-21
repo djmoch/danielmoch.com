@@ -2,14 +2,15 @@ target "target" {
 	source "src" {
 		extension .md {
 			suffix /index.html {
-				require "templates/header.html"
-				require "templates/footer.html"
+				require "templates/post_header.html"
+				require "templates/post_footer.html"
 				filter 'm4 -DDESCRIPTION="$(lowdown -Xdescription -Tterm $<)" -DPAGE_TITLE="$(lowdown -Xtitle -Tterm $<)" -DSLUG=https://www.danielmoch.com/$(echo $< | sed "s/^src\///;s/\.md//")/ $1 >$>'
 				filter "lowdown -Thtml $< >>$>"
 				filter "cat <$2 >>$>"
+				filter 'dagindex -Av -a"$(lowdown -Xauthor -Tterm $<)" -c"$(lowdown -Xcategory -Tterm $<)" -d"$(lowdown -Xdescription -Tterm $<)" -p "$(lowdown -Xdate -Tterm $<)" -s $(echo $< | sed "s/^src\///;s/\.md//")/ -t "$(lowdown -Xtitle -Tterm $<)" -u $(stat -f%m $<)'
 			}
 			suffix .pdf {
-				filter "lowdown -Tms $< | /usr/local/bin/groff -ms -t -Tpdf >$>"
+				filter "lowdown -sTms --nroff-no-numbered $< | 9 sed 's/\.AU /.AU\n/' | pdfroff -itk -mspdf >$>"
 			}
 		}
 		extension .scss {

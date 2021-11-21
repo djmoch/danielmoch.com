@@ -104,14 +104,10 @@ completion system initialization to end up in a similar state. Just
 something to keep in mind if the themes, plugins, and other candy
 offered by Oh My Zsh is too much for you to pass up.
 
-[^it]: Later measurement indicated the actual time was 1.0-1.5s, but
-either way it felt like forever.
+[^it]: Later measurement indicated the actual time was 1.0-1.5s, but either way it felt like forever.
 
 [^jk]: https://octodon.social/@jordyd/100189663891719203
 
-[^ad]: Probably the best written example I found was at
-https://carlosbecker.com/posts/speeding-up-zsh/, from which I pulled
-the above quote.
+[^ad]: Probably the best written example I found was at https://carlosbecker.com/posts/speeding-up-zsh/, from which I pulled the above quote.
 
-[^fp]: ``fpath`` is the Zsh function path, which is similar to your
-system path, but for sourcing function scripts rather than executables
+[^fp]: ``fpath`` is the Zsh function path, which is similar to your system path, but for sourcing function scripts rather than executables

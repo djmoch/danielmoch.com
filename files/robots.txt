@@ -1,0 +1,4 @@
+Sitemap: https://www.danielmoch.com/sitemap.xml
+
+User-Agent: *
+Host: www.danielmoch.com
