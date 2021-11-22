@@ -25,4 +25,7 @@ serve:
 clean:
 	rm -rf target index.db
 
-.PHONY: all clean dag serve
+deploy: all
+	openrsync --rsync-path=/usr/bin/openrsync -a --del target/ root@phosphorus.danielmoch.com:/var/www/htdocs/dotcom
+
+.PHONY: all clean dag serve deploy
