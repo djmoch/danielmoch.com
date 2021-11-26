@@ -2,11 +2,14 @@ nav, #main {
 	font-family: sans-serif;
 	max-width: 80ex;
 	margin: 0px auto;
-	text-align: justify;
 }
 
 h1, h2, h3 {
 	font-family: serif;
+
+	code {
+		display: inline;
+	}
 }
 
 table {
@@ -42,13 +45,24 @@ code {
 	border-radius: 5px;
 }
 
-p code {
-	border: initial;
-	border-radius: initial;
-	display: inline;
+p {
+	code {
+		border: initial;
+		border-radius: initial;
+		display: inline;
+	}
 }
 
 blockquote {
 	padding: 10px 20px;
 	border-left: 5px solid #eee;
+}
+
+.subtle {
+	color: #000;
+	text-decoration: none;
+}
+
+.subtle:hover {
+	text-decoration: underline;
 }

@@ -3,10 +3,16 @@
 
 all: dag target/index.html target/sitemap.xml target/rss.xml
 
-target/index.html: index.db templates/landing_header.html templates/landing_footer.html
-	cat templates/landing_header.html >$@
+target/index.html: index.db target/about/index.html templates/landing_header.html templates/landing_footer.html
+	m4 -I templates templates/landing_header.html >$@
 	dagindex -Gohtml >>$@
 	cat templates/landing_footer.html >>$@
+
+target/about/index.html: templates/about.html templates/nav.html
+	dagindex -A -t "About" -s "about/" \
+		-p $$(stat -f%m templates/about.html) -x 1
+	mkdir -p target/about
+	m4 -I templates templates/about.html >$@
 
 target/sitemap.xml: index.db
 	dagindex -Gositemap -f https://www.danielmoch.com >$@
@@ -18,8 +24,6 @@ target/rss.xml: index.db
 
 dag:
 	dag
-	dagindex -A -t "About" -s "about/" \
-		-p $$(stat -f%m files/about/index.html) -x 1
 
 serve:
 	python3 -m http.server -d target -b 127.0.0.1 8000

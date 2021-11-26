@@ -4,7 +4,8 @@ target "target" {
 			suffix /index.html {
 				require "templates/post_header.html"
 				require "templates/post_footer.html"
-				filter 'm4 -DDESCRIPTION="$(lowdown -Xdescription -Tterm $<)" -DPAGE_TITLE="$(lowdown -Xtitle -Tterm $<)" -DSLUG=https://www.danielmoch.com/$(echo $< | sed "s/^src\///;s/\.md//")/ $1 >$>'
+				require "templates/nav.html"
+				filter 'm4 -I templates -DDESCRIPTION="$(lowdown -Xdescription -Tterm $<)" -DPAGE_TITLE="$(lowdown -Xtitle -Tterm $<)" -DSLUG=https://www.danielmoch.com/$(echo $< | sed "s/^src\///;s/\.md//")/ $1 >$>'
 				filter "lowdown -Thtml $< >>$>"
 				filter "cat <$2 >>$>"
 				filter 'dagindex -A -a"$(lowdown -Xauthor -Tterm $<)" -c"$(lowdown -Xcategory -Tterm $<)" -d"$(lowdown -Xdescription -Tterm $<)" -p "$(lowdown -Xdate -Tterm $<)" -s $(echo $< | sed "s/^src\///;s/\.md//")/ -t "$(lowdown -Xtitle -Tterm $<)" -u $(stat -f%m $<)'
