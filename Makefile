@@ -18,6 +18,8 @@ target/rss.xml: index.db
 
 dag:
 	dag
+	dagindex -A -t "About" -s "about/" \
+		-p $$(stat -f%m files/about/index.html) -x 1
 
 serve:
 	python3 -m http.server -d target -b 127.0.0.1 8000
@@ -26,6 +28,7 @@ clean:
 	rm -rf target index.db
 
 deploy: all
-	openrsync --rsync-path=/usr/bin/openrsync -a --del target/ root@phosphorus.danielmoch.com:/var/www/htdocs/dotcom
+	openrsync --rsync-path=/usr/bin/openrsync -a --del target/ \
+		root@phosphorus.danielmoch.com:/var/www/htdocs/dotcom
 
 .PHONY: all clean dag serve deploy
