@@ -1,15 +1,11 @@
 nav, #main {
 	font-family: sans-serif;
-	max-width: 80ex;
+	max-width: 80ch;
 	margin: 0px auto;
 }
 
 h1, h2, h3 {
 	font-family: serif;
-
-	code {
-		display: inline;
-	}
 }
 
 table {
@@ -20,9 +16,14 @@ img {
 	border-radius: 10px;
 }
 
-td img {
-	border-radius: initial;
-	vertical-align: middle;
+nav {
+	 img {
+		border-radius: initial;
+		vertical-align: middle;
+	}
+	a {
+		vertical-align: middle;
+	}
 }
 
 .p-summary {
@@ -45,7 +46,7 @@ code {
 	border-radius: 5px;
 }
 
-p {
+h1, h2, h3, p {
 	code {
 		border: initial;
 		border-radius: initial;
