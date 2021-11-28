@@ -1,23 +1,24 @@
 # See LICENSE file for copyright and license details
 .POSIX:
 
-all: dag target/index.html target/sitemap.xml target/rss.xml
+all: dag target/index.html target/posts/index.html target/sitemap.xml target/rss.xml
 
-target/index.html: index.db target/about/index.html templates/landing_header.html templates/landing_footer.html
+target/posts/index.html: index.db templates/landing_header.html templates/landing_footer.html templates/nav.html
 	m4 -I templates templates/landing_header.html >$@
 	dagindex -Gohtml >>$@
 	cat templates/landing_footer.html >>$@
 
-target/about/index.html: templates/about.html templates/nav.html
-	dagindex -A -t "About" -s "about/" \
-		-p $$(stat -f%m templates/about.html) -x 1
-	mkdir -p target/about
-	m4 -I templates templates/about.html >$@
+target/index.html: templates/index.html templates/nav.html
+	dagindex -A -t "Home" -s "/" \
+		-p $$(stat -f%m templates/index.html) -x
+	mkdir -p target
+	m4 -I templates -DSLUG=https://www.danielmoch.com/ \
+		templates/index.html >$@
 
 target/sitemap.xml: index.db
 	dagindex -Gositemap -f https://www.danielmoch.com >$@
 
-target/rss.xml: index.db
+target/rss.xml: index.db target/posts/index.html
 	dagindex -Gorss -t "Daniel Moch's Weblog" -f 'https://www.danielmoch.com' \
 		-d "Daniel Moch's Weblog" -r 'https://www.danielmoch.com/rss.xml' -l en \
 		-c 'Contents © 2021 Daniel Moch, CC BY-SA 4.0 License' >$@
