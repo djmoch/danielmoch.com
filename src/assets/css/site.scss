@@ -39,17 +39,20 @@ nav {
 
 code {
 	background: #eee;
-	display: block;
-	overflow-x: auto;
 	background-color: #eee;
-	border: 1px solid black;
-	border-radius: 5px;
+}
+
+pre {
+	code {
+		display: block;
+		overflow-x: auto;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
 }
 
 h1, h2, h3, p {
 	code {
-		border: initial;
-		border-radius: initial;
 		display: inline;
 	}
 }
