@@ -13,8 +13,8 @@ the thought of having to wait a few seconds for my terminal emulator
 to display a prompt feels like a personal affront. My system wasn't
 just behaving badly, it was challenging me by way of insult.
 
-Accepting the challenge laid before me, I took to `my favorite search
-engine`_ to see what tools were available to help me understand what
+Accepting the challenge laid before me, I took to [my favorite search
+engine](https://duckduckgo.com) to see what tools were available to help me understand what
 was suddenly performing so poorly. Oh, okay. [This
 post](https://xebia.com/blog/profiling-zsh-shell-scripts/) says that
 Zsh includes a script profiler. All I need to do is turn it on in my
@@ -77,7 +77,7 @@ little further.
 Aha! So by implication one needs to be careful how they go about
 initializing the completion system. If you do something stupid like,
 say, eval a completion script (effectively initializing the completion
-system) before you update your ``fpath``[^fp]_ and otherwise run
+system) before you update your fpath[^fp] and otherwise run
 ``compinit``, then the number of completion files Zsh sees will differ
 by one between when you eval the completion script and when you later
 call ``compinit``, meaning you'll fully run ``compdump`` every time you
