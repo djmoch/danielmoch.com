@@ -21,7 +21,7 @@ target/sitemap.xml: index.db
 target/rss.xml: index.db target/posts/index.html
 	dagindex -Gorss -t "Daniel Moch's Weblog" -f 'https://www.danielmoch.com' \
 		-d "Daniel Moch's Weblog" -r 'https://www.danielmoch.com/rss.xml' -l en \
-		-c 'Contents © 2021 Daniel Moch, CC BY-SA 4.0 License' >$@
+		-c 'Contents © 2024 Daniel Moch, CC BY-SA 4.0 License' >$@
 
 dag:
 	dag
