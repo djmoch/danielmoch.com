@@ -2,6 +2,7 @@ title: The Culture War Is A Holy War
 author: Daniel Moch
 copyright: 2021, Daniel Moch
 date: 2021-12-05 20:16:00 UTC-05:00
+category: culture
 description: America in 2021
 
 The title, I'm sure, will offend people in at least two different
