@@ -5,10 +5,18 @@ enableRobotsTXT = true
 copyright = '© 2024 Daniel Moch'
 disableKinds = ['taxonomy', 'term']
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-KCNVPTFG6B'
+
 [params]
   [params.author]
     email = 'daniel@danielmoch.com'
     name = 'Daniel Moch'
+
+[privacy]
+  [privacy.googleAnalytics]
+    respectDoNotTrack = true
 
 [outputs]
   home = ['html', 'rss']
