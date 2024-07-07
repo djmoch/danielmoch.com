@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" vocab="http://ogp.me/ns" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ block "title" . }}
+	{{ .Site.Title }}
+	{{ end }}</title>
+	{{ $opts := dict "transpiler" "libsass" "targetPath" "assets/css/site.css" }}
+	{{ with resources.Get "site.scss" | toCSS $opts | minify | fingerprint }}
+		<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+	{{ end }}
+	<meta name="theme-color" content="#155799">
+	<meta name="generator" content="Hugo (gohugo.io)">
+	<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" hreflang="en" href="/rss.xml">
+	<link rel="canonical" href="{{ .Page.Permalink }}">
+	<link rel="icon" href="/favicon.ico" sizes="16x16">
+	<link rel="icon" href="/favicon.ico" sizes="32x32">
+	<link rel="icon" href="/favicon.ico" sizes="48x48">
+	<link rel="icon" href="/favicon.ico" sizes="64x64">
+	<link rel="icon" href="/favicon.ico" sizes="256x256">
+	<meta property="og:site_name" content="{{ .Site.Title }}">
+	<meta property="og:title" content="{{ .Title }}">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://www.danielmoch.com/assets/initials-blue.jpg">
+	<meta name="twitter:image" content="https://www.danielmoch.com/assets/initials-blue.jpg">
+</head>
+<body>
+	{{ partial "nav" }}
+	<div id="main">{{ block "main" . }}
+	{{ end }}
+	</div>
+</body>
+</html>

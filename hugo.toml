@@ -1,0 +1,24 @@
+baseURL = 'https://www.danielmoch.com/'
+languageCode = 'en-us'
+title = "Daniel Moch's Web Home"
+enableRobotsTXT = true
+copyright = '© 2024 Daniel Moch'
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  [params.author]
+    email = 'daniel@danielmoch.com'
+    name = 'Daniel Moch'
+
+[outputs]
+  home = ['html', 'rss']
+  page = ['html']
+  rss = ['rss']
+  section = ['html']
+
+[outputFormats]
+  [outputFormats.rss]
+    baseName = 'rss'
+    isPlainText = false
+    isHTML = false
+    mediaType = 'application/rss+xml'

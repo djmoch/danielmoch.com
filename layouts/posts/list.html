@@ -1,0 +1,17 @@
+{{ define "title" }}
+Post Index | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  <main>
+    {{ $pages := where site.RegularPages "Type" "posts" }}
+<table>
+	<h1>Post Index</h1>
+    {{ range $pages }}
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format "2006-01-02" }}
+      <tr><td><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></td><td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+    {{ end }}
+<table>
+  </main>
+{{ end }}
