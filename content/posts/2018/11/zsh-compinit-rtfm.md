@@ -3,7 +3,7 @@ title: Zsh Compinit ... RTFM
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-11-09T06:04:08-05:00
-modified: 2024-07-06T2042:21-04:00
+modified: 2024-07-06T20:42:21-04:00
 category: technology
 description: Slow start times in Zsh are probably a sign of poor configuration
 ---
