@@ -22,9 +22,13 @@
 	<link rel="icon" href="/favicon.ico" sizes="256x256">
 	<meta property="og:site_name" content="{{ .Site.Title }}">
 	<meta property="og:title" content="{{ .Title }}">
-	<meta property="og:type" content="article">
+	<meta property="og:type" content="{{ block "ogtype" . }}article{{ end }}">
 	<meta property="og:image" content="https://www.danielmoch.com/assets/initials-blue.jpg">
+	<meta property="og:image:alt" content="DM initials">
 	<meta name="twitter:image" content="https://www.danielmoch.com/assets/initials-blue.jpg">
+	<meta name="fediverse:creator" content="@djmoch@discuss.systems" />
+	{{ block "head_extra" . }}
+	{{ end }}
 </head>
 <body>
 	{{ partial "nav" }}
