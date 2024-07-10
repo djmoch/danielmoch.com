@@ -28,3 +28,4 @@ the area of security.
 - {{< uref type="url" href="https://github.com/djmoch" >}}GitHub{{< /uref >}}
 - {{< uref type="url" href="https://discuss.systems/@djmoch" >}}Mastodon{{< /uref >}}
 - {{< uref type="url" href="https://bsky.app/profile/danielmoch.com" >}}Bluesky{{< /uref >}}
+- {{< uref type="url" href="https://linkedin.com/in/djmoch" >}}LinkedIn{{< /uref >}}
