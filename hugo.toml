@@ -8,6 +8,8 @@ disableKinds = ['taxonomy', 'term']
 [services]
   [services.googleAnalytics]
     ID = 'G-KCNVPTFG6B'
+  [services.rss]
+    limit = 20
 
 [params]
   [params.author]
