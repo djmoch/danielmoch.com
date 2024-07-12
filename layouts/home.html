@@ -12,11 +12,9 @@
 {{ end }}
 
 {{ define "main" }}
-	<div class="h-card">
-		<h1 class="p-name">{{ .Site.Params.Author.Name }}</h1>
-		<img class="u-photo" src="/assets/avatar.jpg" id="logo" alt="{{ .Site.Params.Author.Name }}" width="200" height="200">
-		{{ .Content }}
-	</div>
+	<h1>{{ .Site.Params.Author.Name }}</h1>
+	<img src="/assets/avatar.jpg" id="logo" alt="{{ .Site.Params.Author.Name }}" width="200" height="200">
+	{{ .Content }}
 	<h2>License Info</h2>
 	<table style="width: auto; margin: 1em 2em;">
 		<tr>

@@ -36,6 +36,7 @@
 	<div id="main">{{ block "main" . }}
 	{{ end }}
 	</div>
-{{ template "_internal/google_analytics.html" . }}
+	{{ partial "hcard" }}
+	{{ template "_internal/google_analytics.html" . }}
 </body>
 </html>

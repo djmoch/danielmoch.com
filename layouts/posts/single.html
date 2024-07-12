@@ -12,5 +12,18 @@
 <article class="h-entry">
 <h1 class="p-name">{{.Title }}</h1>
 <h2 class="p-summary">{{ .Description }}</h2>
+<div style="display: none">
+<ul>
+<li><a class="p-author h-card" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author.Name }}</a></li>
+<li>
+  <time class="dt-published" datetime="{{ .Date | time.Format "2006-01-02 15:04:05" }}">{{ .Date | time.Format "2006-01-02 15:04:05" }}</time>
+</li>
+<li>
+  <time class="dt-updated" datetime="{{ .Lastmod | time.Format "2006-01-02 15:04:05" }}">{{ .Lastmod | time.Format "2006-01-02 15:04:05" }}</time>
+</li>
+</ul>
+</div>
+<div class="e-content">
 {{ .Content }}
+</div>
 {{ end }}
