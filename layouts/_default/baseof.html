@@ -32,11 +32,19 @@
 	{{ end }}
 </head>
 <body>
-	{{ partial "nav" }}
-	<div id="main">{{ block "main" . }}
+	<div class="page">
+	{{ partial "nav" . }}
+	<main>{{ block "main" . }}
 	{{ end }}
-	</div>
+	</main>
 	{{ partial "hcard" }}
 	{{ template "_internal/google_analytics.html" . }}
+	</div>
+	<footer>
+		<div class="license-note">
+			All content <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+			(code <a href="https://github.com/djmoch/danielmoch.com/blob/master/LICENSE">ISC</a>)
+		</div>
+	</footer>
 </body>
 </html>

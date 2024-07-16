@@ -5,7 +5,6 @@ Posts | {{ .Site.Title }}
 {{ define "ogtype" }}website{{ end }}
 
 {{ define "main" }}
-  <main>
     {{ $pages := where site.RegularPages "Type" "posts" }}
 <table>
 	<h1>Post Index</h1>
@@ -14,6 +13,5 @@ Posts | {{ .Site.Title }}
       {{ $dateHuman := .Date | time.Format "2006-01-02" }}
       <tr><td><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></td><td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
     {{ end }}
-<table>
-  </main>
+</table>
 {{ end }}

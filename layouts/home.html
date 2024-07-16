@@ -13,17 +13,14 @@
 
 {{ define "main" }}
 	<h1>{{ .Site.Params.Author.Name }}</h1>
-	<img src="/assets/avatar.jpg" id="logo" alt="{{ .Site.Params.Author.Name }}" width="200" height="200">
 	{{ .Content }}
-	<h2>License Info</h2>
-	<table style="width: auto; margin: 1em 2em;">
-		<tr>
-			<td>Content: </td>
-			<td><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></td>
-		</tr>
-		<tr>
-			<td>Code: </td>
-			<td><a href="https://github.com/djmoch/danielmoch.com/blob/master/LICENSE">ISC</a></td>
-		</tr>
-	</table>
+	<h2>Recent Posts</h2>
+    {{ range site.RegularPages.Limit 5 }}
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format "2006-01-02" }}
+      <div>
+        <h3><a href="{{ .RelPermalink}}">{{ .Title }}</a></h3>
+        <div class="post-summary">{{ .Summary }}</div>
+      </div>
+    {{ end }}
 {{ end }}

@@ -15,14 +15,3 @@ across multiple internal projects.
 
 In 2024 I began working with the open source community in the area
 of security.
-
-
-## Links
-
-- [Email](mailto:daniel@danielmoch.com)
-- [PGP (deprecated)](/static/gpg.asc)
-- [Signify](/static/djmoch-signify.pub)
-- [GitHub](https://github.com/djmoch)
-- [Mastodon](https://discuss.systems/@djmoch)
-- [Bluesky](https://bsky.app/profile/danielmoch.com)
-- [LinkedIn](https://linkedin.com/in/djmoch)

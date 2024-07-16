@@ -15,6 +15,27 @@ disableKinds = ['taxonomy', 'term']
   [params.author]
     email = 'daniel@danielmoch.com'
     name = 'Daniel Moch'
+  [[params.links]]
+    text = 'Email'
+    ref = 'mailto:daniel@danielmoch.com'
+  [[params.links]]
+    text = 'PGP'
+    ref = '/static/gpg.asc'
+  [[params.links]]
+    text = 'Signify'
+    ref = '/static/djmoch-signify.pub'
+  [[params.links]]
+    text = 'GitHub'
+    ref = 'https://github.com/djmoch'
+  [[params.links]]
+    text = 'Mastodon'
+    ref = 'https://discuss.systems/@djmoch'
+  [[params.links]]
+    text = 'Bluesky'
+    ref = 'https://bsky.app/profile/danielmoch.com'
+  [[params.links]]
+    text = 'LinkedIn'
+    ref = 'https://linkedin.com/in/djmoch'
 
 [privacy]
   [privacy.googleAnalytics]
