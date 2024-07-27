@@ -15,7 +15,7 @@ img {
 }
 
 footer {
-	margin-left: 26rem;
+	margin-top: 3rem;
 }
 
 nav {
@@ -52,6 +52,10 @@ nav {
 	margin: 5rem auto 3rem;
 	max-width: 80rem;
 	padding: 1rem;
+}
+
+.page-content {
+	flex-direction: column;
 }
 
 .p-summary {
