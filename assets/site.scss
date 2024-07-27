@@ -126,6 +126,9 @@ blockquote {
 			li {
 				display: inline-block;
 			}
+			li:not(last-child) {
+				margin-right: .25rem;
+			}
 		}
 	}
 }
