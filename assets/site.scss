@@ -23,6 +23,7 @@ nav {
 	padding: 0 4rem 0 2rem;
 	.menu-toggle {
 		display: none;
+		margin-top: 1rem;
 		border: 1px solid;
 		border-color: #000;
 		background-color: #fff;
@@ -120,6 +121,11 @@ blockquote {
 		.menu-toggle {
 			display: block;
 			width: 90%;
+		}
+		ul {
+			li {
+				display: inline-block;
+			}
 		}
 	}
 }
