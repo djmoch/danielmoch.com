@@ -15,7 +15,8 @@
 	<h1>{{ .Site.Params.Author.Name }}</h1>
 	{{ .Content }}
 	<h2>Recent Posts</h2>
-    {{ range site.RegularPages.Limit 5 }}
+    {{ $pages := where .Site.RegularPages "Section" "ne" "" }}
+    {{ range $pages.Limit 5 }}
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := .Date | time.Format "2006-01-02" }}
       <div>
