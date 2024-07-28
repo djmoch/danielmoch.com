@@ -15,27 +15,40 @@ disableKinds = ['taxonomy', 'term']
   [params.author]
     email = 'daniel@danielmoch.com'
     name = 'Daniel Moch'
-  [[params.links]]
-    text = 'Email'
-    ref = 'mailto:daniel@danielmoch.com'
-  [[params.links]]
-    text = 'PGP'
-    ref = '/static/gpg.asc'
-  [[params.links]]
-    text = 'Signify'
-    ref = '/static/djmoch-signify.pub'
-  [[params.links]]
-    text = 'GitHub'
-    ref = 'https://github.com/djmoch'
-  [[params.links]]
-    text = 'Mastodon'
-    ref = 'https://discuss.systems/@djmoch'
-  [[params.links]]
-    text = 'Bluesky'
-    ref = 'https://bsky.app/profile/danielmoch.com'
-  [[params.links]]
-    text = 'LinkedIn'
-    ref = 'https://linkedin.com/in/djmoch'
+  [params.nav]
+    [[params.nav.top]]
+      text = 'Home'
+      ref = '/'
+    [[params.nav.top]]
+      text = 'Posts'
+      ref = '/posts/'
+    [[params.nav.top]]
+      text = 'Git'
+      ref = 'https://git.danielmoch.com'
+    [[params.nav.top]]
+      text = 'Colophon'
+      ref = '/colophon/'
+    [[params.nav.links]]
+      text = 'Email'
+      ref = 'mailto:daniel@danielmoch.com'
+    [[params.nav.links]]
+      text = 'PGP'
+      ref = '/static/gpg.asc'
+    [[params.nav.links]]
+      text = 'Signify'
+      ref = '/static/djmoch-signify.pub'
+    [[params.nav.links]]
+      text = 'GitHub'
+      ref = 'https://github.com/djmoch'
+    [[params.nav.links]]
+      text = 'Mastodon'
+      ref = 'https://discuss.systems/@djmoch'
+    [[params.nav.links]]
+      text = 'Bluesky'
+      ref = 'https://bsky.app/profile/danielmoch.com'
+    [[params.nav.links]]
+      text = 'LinkedIn'
+      ref = 'https://linkedin.com/in/djmoch'
 
 [privacy]
   [privacy.googleAnalytics]

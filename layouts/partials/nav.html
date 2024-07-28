@@ -3,13 +3,15 @@
 	<button class="menu-toggle" id="menu-toggle">Menu</button>
 	<div class="nav-links collapsed" id="nav-links">
 	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/posts/">Posts</a></li>
-		<li><a href="https://git.danielmoch.com">Git</a></li>
+	{{ range .Site.Params.Nav.Top }}
+		{{ if (and . (reflect.IsMap .)) }}
+			<li><a href="{{ .ref }}">{{ .text }}</a></li>
+		{{ end }}
+	{{ end }}
 	</ul>
 	<h2>Links</h2>
 	<ul>
-	{{ range .Site.Params.Links }}
+	{{ range .Site.Params.Nav.Links }}
 		{{ if (and . (reflect.IsMap .)) }}
 			<li><a href="{{ .ref }}">{{ .text }}</a></li>
 		{{ end }}
