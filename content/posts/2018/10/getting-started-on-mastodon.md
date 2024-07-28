@@ -3,7 +3,7 @@ title: Getting Started On Mastodon
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-10-18T06:29:45-04:00
-category: technology
+categories: [technology]
 description: Tips for making the most of your experience on the Fediverse
 ---
 If I've identified a trend in my social media preferences, it's that I

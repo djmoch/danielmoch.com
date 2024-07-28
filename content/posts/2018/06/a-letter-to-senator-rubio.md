@@ -3,7 +3,7 @@ title: A Letter To Senator Rubio
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-06-18T06:01:18-04:00
-category: politics
+categories: [politics]
 description: Children should never be separated from their parents
 ---
 Senator Rubio,

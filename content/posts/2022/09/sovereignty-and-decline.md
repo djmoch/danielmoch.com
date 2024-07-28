@@ -3,7 +3,7 @@ title: Sovereignty and Decline
 author: Daniel Moch
 copyright: 2022, Daniel Moch
 date: 2022-09-02T07:30:00-05:00
-category: culture
+categories: [culture]
 description: News of American society's decline
 ---
 It has become commonplace to discuss with a certain level of anxiety

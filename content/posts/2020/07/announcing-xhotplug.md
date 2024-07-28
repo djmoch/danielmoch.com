@@ -3,7 +3,7 @@ title: Announcing Xhotplug
 author: Daniel Moch
 copyright: 2020, Daniel Moch
 date: 2020-07-04T13:54:52-04:00
-category: announcements
+categories: [announcements]
 description: An X11 monitor attach/detach responder
 ---
 I'm pleased to announce the initial, beta release of

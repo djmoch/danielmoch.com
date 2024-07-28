@@ -3,7 +3,7 @@ title: You Should Be Using Tags In Vim
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-12-02T17:33:09-05:00
-category: technology
+categories: [technology]
 description: You may not know it, but Vim already does what you installed a Jedi plugin to do
 ---
 <em>Note: This is a crosspost of an entry I wrote in this year's

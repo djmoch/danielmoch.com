@@ -4,7 +4,7 @@ author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-10-14T15:42:53-04:00
 lastmod: 2024-07-06T2046:10-04:00
-category: technology
+categories: [technology]
 description: I've moved from a Django site to a static one powered by Nikola
 ---
 **Update: As of July 2024 I'm using [Hugo](https://gohugo.io)**

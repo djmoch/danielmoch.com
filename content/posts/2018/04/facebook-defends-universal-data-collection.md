@@ -3,7 +3,7 @@ title: Facebook Defends Universal Data Collection
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-04-18T05:30:14-04:00
-category: security
+categories: [security]
 description: Facebook resorts to finger-pointing to defend collecting data on non-users
 ---
 Since June of last year, Facebook has been publishing a series called

@@ -3,7 +3,7 @@ title: Complexity Is Leaky, or, Roger Peppé Gets It
 author: Daniel Moch
 copyright: 2024, Daniel Moch
 date: 2024-07-27T08:19:00-04:00
-category: technology
+categories: [technology]
 description: Hyper-configurable tools are a source of cognitive burden
 ---
 Over the past year or so I've been collecting quotes about simplicity.

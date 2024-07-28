@@ -11,7 +11,7 @@
 {{ define "main" }}
 <article class="h-entry">
 <h1 class="p-name">{{.Title }}</h1>
-<h2 class="p-summary">{{ .Description }}</h2>
+<h2 class="p-summary">{{ .Description }}<br>Filed under {{ range .GetTerms "categories" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</h2>
 <div style="display: none">
 <ul>
 <li><a class="p-author h-card" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author.Name }}</a></li>

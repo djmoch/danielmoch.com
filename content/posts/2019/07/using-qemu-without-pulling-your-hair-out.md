@@ -3,7 +3,7 @@ title: Using QEMU Without Pulling Your Hair Out
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2019-07-15T21:25:02-04:00
-category: technology
+categories: [technology]
 description: Tips for keeping your sanity with a very powerful tool
 ---
 I make it a rule to choose my tools carefully and to invest the time

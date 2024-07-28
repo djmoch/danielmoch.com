@@ -3,7 +3,7 @@ title: The Mozilla Foundation On A Healthy Internet
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-04-11T06:40:06-04:00
-category: technology
+categories: [technology]
 description: Mozilla's report calls out Web illiteracy as a major problem
 ---
 Sean Gallagher over at Ars Technica

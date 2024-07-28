@@ -4,7 +4,7 @@ author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-03-18T15:37:52-04:00
 slug: a-eulogy-for-my-grandmother
-category: personal
+categories: [personal]
 description: A eulogy for Jane Marie Moch
 ---
 Jane Marie Moch, who I had the privilege for the past 35 years of

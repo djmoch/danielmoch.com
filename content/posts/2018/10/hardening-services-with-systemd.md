@@ -3,7 +3,7 @@ title: Hardening Services With Systemd
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-10-05T09:13:03-04:00
-category: technology
+categories: [technology]
 description: More secure services are an out-of-the-box feature with Systemd
 ---
 Systemd gets a lot of hate. There's a lot of heat and very little

@@ -3,7 +3,7 @@ title: Structural Problems With For-Profit Social Media
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-03-22T16:30:06-04:00
-category: technology
+categories: [technology]
 description: Zeynep Tufekci nails the structural problems with social media
 ---
 Many of you who know me personally know that I've become increasingly

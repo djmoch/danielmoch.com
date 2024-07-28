@@ -3,7 +3,7 @@ title: Historical Augustinianism
 author: Daniel Moch
 copyright: 2024, Daniel Moch
 date: 2024-04-20T08:35:00-05:00
-category: theology
+categories: [theology]
 description: A third way of thinking about cultural engagement
 ---
 Ways of classifying Christian cultural engagement abound, but one

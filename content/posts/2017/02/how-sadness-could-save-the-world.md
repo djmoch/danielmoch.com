@@ -4,7 +4,7 @@ author: Daniel Moch
 copyright: 2017, Daniel Moch
 date: 2017-02-12T16:41:32-04:00
 slug: how-sadness-could-save-the-world
-category: politics
+categories: [politics]
 description: It seems like everywhere I turn people are angry.
 ---
 Anger is my first response when things go wrong. If that surprises you,

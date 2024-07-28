@@ -3,7 +3,9 @@ languageCode = 'en-us'
 title = "Daniel Moch's Web Home"
 enableRobotsTXT = true
 copyright = '© 2024 Daniel Moch'
-disableKinds = ['taxonomy', 'term']
+
+[taxonomies]
+  category = 'categories'
 
 [services]
   [services.googleAnalytics]
@@ -22,6 +24,9 @@ disableKinds = ['taxonomy', 'term']
     [[params.nav.top]]
       text = 'Posts'
       ref = '/posts/'
+    [[params.nav.top]]
+      text = 'Categories'
+      ref = '/categories/'
     [[params.nav.top]]
       text = 'Git'
       ref = 'https://git.danielmoch.com'

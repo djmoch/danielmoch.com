@@ -3,7 +3,7 @@ title: Developing Go Modules In Private
 author: Daniel Moch
 copyright: 2021, Daniel Moch
 date: 2021-12-31T13:30:00-05:00
-category: technology
+categories: [technology]
 description: Using Private Modules In Your Projects
 ---
 Today brings us another reminder to read the reference materials,

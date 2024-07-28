@@ -3,7 +3,7 @@ title: I Am Done With Self-Hosting
 author: Daniel Moch
 copyright: 2024, Daniel Moch
 date: 2024-07-04T14:43:00-04:00
-category: personal
+categories: [personal]
 description: Changes on the home front
 ---
 This is a personal post on why, after almost ten years, I am no

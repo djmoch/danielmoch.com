@@ -3,7 +3,7 @@ title: Regarding Semantic Versioning
 author: Daniel Moch
 copyright: 2020, Daniel Moch
 date: 2020-09-11T08:51:18-04:00
-category: technology
+categories: [technology]
 description: Semantic Versioning is a meta-API
 ---
 So as not to bury the lede, I'll get to my point: [Semantic

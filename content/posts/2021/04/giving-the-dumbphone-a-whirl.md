@@ -3,7 +3,7 @@ title: Giving The Dumbphone A Whirl
 author: Daniel Moch
 copyright: 2021, Daniel Moch
 date: 2021-04-20T19:50:00-04:00
-category: technology
+categories: [technology]
 description: It's quiet uptown ... or anywhere else you don't take your smartphone.
 ---
 Less has really started to seem like more for me lately. In a pique

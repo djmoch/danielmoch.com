@@ -3,7 +3,7 @@ title: Traveling With The Good and The Bad
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-03-19T19:53:28-04:00
-category: personal
+categories: [personal]
 description: Things I'm thankful for when I'm on the road.
 ---
 
