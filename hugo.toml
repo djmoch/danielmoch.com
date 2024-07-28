@@ -31,6 +31,9 @@ copyright = '© 2024 Daniel Moch'
       text = 'Git'
       ref = 'https://git.danielmoch.com'
     [[params.nav.top]]
+      text = 'Resume'
+      ref = '/resume/'
+    [[params.nav.top]]
       text = 'Colophon'
       ref = '/colophon/'
     [[params.nav.links]]
