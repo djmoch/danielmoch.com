@@ -1,24 +1,13 @@
 ---
 title: Resume
 date: 2024-07-28T15:28:00-04:00
+lastmod: 2024-08-02T15:02:55-04:00
 ---
 
 _This page is also downloadable as a [PDF](resume.pdf)_
 
 Software engineer and architect with over nineteen years of
-experience, including eleven years in CI/CD and DevOps.
-
-## Achievements
-
-In 2023, I was admitted into Lockheed Martin's Recognized Technical
-Talent (RTT) program, the entry point of their Fellows pipeline.
-
-In 2017, I graduated from Lockheed Martin's Advanced Technical
-Leadership Program (ATLP).
-
-## Clearances
-
-Active Secret with most recent investigation in 2015
+experience, including over fifteen years developing information systems.
 
 ## Current Roles
 
@@ -122,6 +111,14 @@ Server 2012, Hyper-V, ESXi, SOAP, REST
 
 Made manned space flight safer through the development BIT code in a vxWorks environment
 for the Space Shuttle program.
+
+## Achievements
+
+In 2023, I was admitted into Lockheed Martin's Recognized Technical
+Talent (RTT) program, the entry point of their Fellows pipeline.
+
+In 2017, I graduated from Lockheed Martin's Advanced Technical
+Leadership Program (ATLP).
 
 ## Patents
 
