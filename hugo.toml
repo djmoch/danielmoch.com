@@ -57,6 +57,9 @@ copyright = '© 2024 Daniel Moch'
     [[params.nav.links]]
       text = 'LinkedIn'
       ref = 'https://linkedin.com/in/djmoch'
+    [[params.nav.links]]
+      text = 'Signal'
+      ref = 'https://signal.me/#eu/g0NwS-dMpH0llD92SlVWoQXhkWoSCrEaHZIaFTfkWDTmqnSKLc1CtptpsMS6uPyp'
 
 [privacy]
   [privacy.googleAnalytics]
