@@ -3,7 +3,7 @@ title: New Website Backend
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-10-14T15:42:53-04:00
-lastmod: 2024-07-06T2046:10-04:00
+lastmod: 2024-07-06T20:46:10-04:00
 categories: [technology]
 description: I've moved from a Django site to a static one powered by Nikola
 ---
