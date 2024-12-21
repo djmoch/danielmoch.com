@@ -1,5 +1,10 @@
+$theme-color: #155799;
 nav, main {
 	font-family: sans-serif;
+}
+
+a {
+	color: $theme-color;
 }
 
 h1, h2, h3 {
@@ -32,6 +37,16 @@ nav {
 	}
 	.nav-links {
 		margin-top: 1rem;
+	}
+	.social-badges {
+		a {
+			color: $theme-color;
+		}
+		li {
+			margin-right: 5px;
+			font-size: larger;
+		}
+		display: flex;
 	}
 	ul {
 		list-style: none;

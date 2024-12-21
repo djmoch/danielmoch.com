@@ -9,11 +9,10 @@
 		{{ end }}
 	{{ end }}
 	</ul>
-	<h2>Links</h2>
-	<ul>
+	<ul class="social-badges">
 	{{ range .Site.Params.Nav.Links }}
 		{{ if (and . (reflect.IsMap .)) }}
-			<li><a href="{{ .ref }}">{{ .text }}</a></li>
+			<li><a href="{{ .ref }}"><i class="{{ .text }}"></i></a></li>
 		{{ end }}
 	{{ end }}
 	</ul>

@@ -34,31 +34,31 @@ copyright = '© 2024 Daniel Moch'
       text = 'Resume'
       ref = '/resume/'
     [[params.nav.top]]
+      text = 'PGP Key'
+      ref = '/static/gpg.asc'
+    [[params.nav.top]]
+      text = 'Signify/Minisign Key'
+      ref = '/static/djmoch-signify.pub'
+    [[params.nav.top]]
       text = 'Colophon'
       ref = '/colophon/'
     [[params.nav.links]]
-      text = 'Email'
+      text = 'fa-solid fa-envelope'
       ref = 'mailto:daniel@danielmoch.com'
     [[params.nav.links]]
-      text = 'PGP'
-      ref = '/static/gpg.asc'
-    [[params.nav.links]]
-      text = 'Signify'
-      ref = '/static/djmoch-signify.pub'
-    [[params.nav.links]]
-      text = 'GitHub'
+      text = 'fa-brands fa-github'
       ref = 'https://github.com/djmoch'
     [[params.nav.links]]
-      text = 'Mastodon'
+      text = 'fa-brands fa-mastodon'
       ref = 'https://discuss.systems/@djmoch'
     [[params.nav.links]]
-      text = 'Bluesky'
+      text = 'fa-brands fa-bluesky'
       ref = 'https://bsky.app/profile/danielmoch.com'
     [[params.nav.links]]
-      text = 'LinkedIn'
+      text = 'fa-brands fa-linkedin'
       ref = 'https://linkedin.com/in/djmoch'
     [[params.nav.links]]
-      text = 'Signal'
+      text = 'fa-brands fa-signal-messenger'
       ref = 'https://signal.me/#eu/g0NwS-dMpH0llD92SlVWoQXhkWoSCrEaHZIaFTfkWDTmqnSKLc1CtptpsMS6uPyp'
 
 [privacy]

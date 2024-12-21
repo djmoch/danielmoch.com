@@ -9,7 +9,22 @@
 	{{ end }}</title>
 	{{ $opts := dict "transpiler" "libsass" "targetPath" "assets/css/site.css" }}
 	{{ with resources.Get "site.scss" | toCSS $opts | minify | fingerprint }}
-		<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+	{{ end }}
+	{{ with resources.Get "fontawesome/css/fontawesome.min.css" }}
+	<link rel="stylesheet" href="{{ .RelPermalink }}" />
+	{{ end }}
+	{{ with resources.Get "fontawesome/css/brands.min.css" }}
+	<link rel="stylesheet" href="{{ .RelPermalink }}" />
+	{{ end }}
+	{{ with resources.Get "fontawesome/css/solid.min.css" }}
+	<link rel="stylesheet" href="{{ .RelPermalink }}" />
+	{{ end }}
+	{{ with resources.Get "fontawesome/webfonts/fa-solid-900.woff2" }}
+		{{ .Publish }}
+	{{ end }}
+	{{ with resources.Get "fontawesome/webfonts/fa-brands-400.woff2" }}
+		{{ .Publish }}
 	{{ end }}
 	<meta name="theme-color" content="#155799">
 	<meta name="generator" content="Hugo (gohugo.io)">
