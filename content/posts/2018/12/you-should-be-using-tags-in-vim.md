@@ -3,13 +3,14 @@ title: You Should Be Using Tags In Vim
 author: Daniel Moch
 copyright: 2018, Daniel Moch
 date: 2018-12-02T17:33:09-05:00
+lastmod: 2024-12-21T09:02:00-05:00
 categories: [technology]
 description: You may not know it, but Vim already does what you installed a Jedi plugin to do
 ---
-<em>Note: This is a crosspost of an entry I wrote in this year's
-<ahref="http://vimways.org">vimways.org</a> advent calendar. If
-you'reinterested in Vim, I recommend you pop on over there and read
-theother articles too.</em>
+*Note: This is a crosspost of an entry I wrote in this year's
+[vimways.org](http://vimways.org) advent calendar. If
+you're interested in Vim, I recommend you pop on over there and read
+the other articles too.*
 
 > I love you; you complete me.
 >
