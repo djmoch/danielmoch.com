@@ -1,4 +1,5 @@
 $theme-color: #155799;
+
 nav, main {
 	font-family: sans-serif;
 }
@@ -17,6 +18,10 @@ table {
 
 img {
 	border-radius: 10px;
+}
+
+#logo {
+	border-radius: 100px;
 }
 
 footer {
