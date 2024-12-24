@@ -46,6 +46,9 @@ copyright = '© 2024 Daniel Moch'
       text = 'fa-solid fa-envelope'
       ref = 'mailto:daniel@danielmoch.com'
     [[params.nav.links]]
+      text = 'fa-solid fa-square-rss'
+      ref = '/rss.xml'
+    [[params.nav.links]]
       text = 'fa-brands fa-github'
       ref = 'https://github.com/djmoch'
     [[params.nav.links]]
