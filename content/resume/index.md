@@ -6,14 +6,27 @@ lastmod: 2024-08-02T15:02:55-04:00
 
 _This page is also downloadable as a [PDF](resume.pdf)_
 
-Software engineer and architect with over nineteen years of
-experience, including over fifteen years developing information systems.
+Software Engineer and Architect focusing on Developer Platforms.
+I help legacy programs modernize their development practices.
 
 ## Current Roles
 
-### Staff Software Engineer at Lockheed Martin (November 2019)
+### Staff Software Engineer at Lockheed Martin
 
-Serving as the lead DevSecOps Architect for an organization charged
+Since July 2024, serving as a Staff Software Engineer in Lockheed
+Martin's Open Source Program Office, working with others across the
+industry in the Cloud Native Computing Foundation's Public Sector
+User Group.
+
+Since October 2024, serving as a software architect creating a
+modern developer platform for use by teams working in a disconnected
+environment.
+
+## Past Experience
+
+### Staff Software Engineer at Lockheed Martin (November 2019 – December 2024)
+
+Served as the lead DevSecOps Architect for an organization charged
 with developing a modern DevSecOps platform for a large logistics
 system.
 Developing associated tooling including a web-based self-service
@@ -22,12 +35,10 @@ console to automate common tasks.
 Technologies: AWS, Rancher/RKE2, ArgoCD, Backstage, GitLab CI/CD, Go,
 Python, PostgreSQL
 
-### Adjunct Faculty at Full Sail University (September 2019)
+### Adjunct Faculty at Full Sail University (September 2019 – November 2024)
 
 Teaching Computer Science courses in Software Engineering and
 Operating Systems.
-
-## Past Experience
 
 ### Senior Software Engineer at Lockheed Martin (January 2019 – November 2019)
 
