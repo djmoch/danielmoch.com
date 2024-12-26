@@ -1,8 +1,14 @@
 ---
 title: 'Love and Peace'
 date: 2024-09-02T07:19:18-04:00
+lastmod: 2024-12-26T11:36:00-05:00
 categories: [politics]
 description: The path forward is peacemaking.
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3l36bxkusqx2h
+    mastodon: https://discuss.systems/@djmoch/113067929671758746
+    linkedin: https://www.linkedin.com/posts/djmoch_love-and-peace-activity-7236347608741351426--NDl
 ---
 I had the opportunity this past weekend to attend a short seminar
 held by my church on the topic of peacemaking in political discourse.

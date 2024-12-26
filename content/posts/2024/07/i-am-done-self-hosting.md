@@ -3,8 +3,13 @@ title: I Am Done With Self-Hosting
 author: Daniel Moch
 copyright: 2024, Daniel Moch
 date: 2024-07-04T14:43:00-04:00
+lastmod: 2024-12-26T11:43:00-05:00
 categories: [personal]
 description: Changes on the home front
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3kwi44dknux2k
+    mastodon: https://discuss.systems/@djmoch/112729754202653648
 ---
 This is a personal post on why, after almost ten years, I am no
 longer self-hosting my blog, mail and other servers.

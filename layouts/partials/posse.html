@@ -1,0 +1,15 @@
+<div id="posse">Also posted to:
+<ul class="social-badges">
+{{- with .Params.social }}
+{{- with .bluesky }}
+<li><a href="{{ . }}"><i class="fa-brands fa-bluesky"></i></a></li>
+{{- end }}
+{{- with .mastodon }}
+<li><a href="{{ . }}"><i class="fa-brands fa-mastodon"></i></a></li>
+{{- end }}
+{{- with .linkedin }}
+<li><a href="{{ . }}"><i class="fa-brands fa-linkedin"></i></a></li>
+{{- end }}
+{{- end }}
+</ul>
+</div>

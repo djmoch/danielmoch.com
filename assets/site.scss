@@ -43,19 +43,29 @@ nav {
 	.nav-links {
 		margin-top: 1rem;
 	}
-	.social-badges {
-		a {
-			color: $theme-color;
-		}
-		li {
-			margin-right: 5px;
-			font-size: larger;
-		}
-		display: flex;
-	}
 	ul {
 		list-style: none;
 		padding: 1ch;
+	}
+	li {
+		font-size: larger;
+	}
+}
+
+.social-badges {
+	li {
+		margin-right: 5px;
+	}
+	display: flex;
+	list-style: none;
+}
+
+#posse {
+	display: flex;
+	font-size: small;
+	ul {
+		margin: 0;
+		padding-left: 5px;
 	}
 }
 
