@@ -3,6 +3,10 @@ title: 'I Am Trying To Write More'
 date: 2024-12-26T18:21:39-05:00
 categories: [personal]
 description: An update on how I'll be using this site going forward
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3leavot5u3k2s
+    mastodon: https://discuss.systems/@djmoch/113722345990857924
 ---
 My wife will tell you that in the past I have taken an all-or-nothing
 approach to social media.
