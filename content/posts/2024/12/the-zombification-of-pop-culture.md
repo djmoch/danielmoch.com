@@ -3,6 +3,10 @@ title: 'The Zombification of Pop Culture'
 date: 2024-12-27T08:51:01-05:00
 categories: [microblog]
 description: Why we can't escape the slow-moving Hawk Tuah moment
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3lecdx3xbls2h
+    mastodon: https://discuss.systems/@djmoch/113725578234456304
 ---
 The image of zombies felt inescapable as I got up to speed on [Hawk
 Tuah] girl Haliey Welch, a story and character so packed with minor
