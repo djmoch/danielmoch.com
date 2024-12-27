@@ -1,7 +1,6 @@
 ---
 title: 'I Am Trying To Write More'
 date: 2024-12-26T18:21:39-05:00
-draft: true
 categories: [personal]
 description: An update on how I'll be using this site going forward
 ---
