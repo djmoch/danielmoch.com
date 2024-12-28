@@ -7,6 +7,10 @@ on:
     branches:
       - master
 
+  # Schedule builds every 7:00 AM EST to pick up scheduled posts
+  schedule:
+    - cron: '00 12 * * *'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
