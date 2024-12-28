@@ -3,6 +3,11 @@ title: 'Formal Methods'
 date: 2024-12-28T09:46:56-05:00
 categories: microblog
 description: Strategic use of formal methods lower total cost of software ownership
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3leeqtaiq622p
+    mastodon: https://discuss.systems/@djmoch/113731011392120774
+    linkedin: https://www.linkedin.com/posts/djmoch_marcs-blog-activity-7278785085703610368-dbRj
 ---
 A couple years back I was introduced to some of the folks at [Galois],
 and they convinced me that formal methods can lower the cost of
