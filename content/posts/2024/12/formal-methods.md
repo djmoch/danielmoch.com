@@ -1,6 +1,7 @@
 ---
 title: 'Formal Methods'
 date: 2024-12-28T09:46:56-05:00
+lastmod: 2025-01-08T05:53:00-05:00
 categories: microblog
 description: Strategic use of formal methods lower total cost of software ownership
 params:
@@ -17,7 +18,7 @@ nuance that I think is helpful.
 I'll summarize it this way: formal methods can lower the total cost
 to develop and maintain system-level software, where the requirements
 are stable and well-understood.
-If you're designing a user-facing system and need to interatively
+If you're designing a user-facing system and need to interactively
 respond to customer feedback—in other words, if your requirements
 are shifting and poorly understood—Agile remains the best choice.
 
