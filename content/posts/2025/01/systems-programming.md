@@ -36,7 +36,7 @@ The whole system will be better for it.
 This all came to mind as I read Fernando Hurtado Cardenas's blog
 post "[That's Not an Abstraction, That's Just a Layer of Indirection][na]."
 In noticing and commenting on the difference between abstraction
-and indirection, Cardenas is behaving like a good systems programmer
+and indirection, Cardenas is behaving like a good *systems programmer*
 (at least by my definition).
 They recognize it is the whole system that needs to be optimized
 and not just the topmost layer.
@@ -53,7 +53,7 @@ But I would argue it does need to be *present* in any large-scale
 software team.
 
 [^ha]: It is perhaps useful to identify an opposite of this kind
-    of systems programming in certain kinds of hacking.
+    of *systems programming* in certain kinds of hacking.
     Let me say that I have a lot of respect for the hacker ethos
     (or perhaps *mythos*).
     Still, I struggle to see its place in large scale software
@@ -101,7 +101,7 @@ application programmers are necessary too.
 Of course they are!
 They are the ones writing the value-add business logic that will
 make or break the business.
-A systems programmer's job is to support an application programmer.
+A *systems programmer*'s job is to support an application programmer.
 How can that happen if instead we look down our noses at them.
 They are our customers!
 So elitism within the Platform Engineering community should be
@@ -113,3 +113,16 @@ Ask questions that tease out whether a candidate wants to understand
 the entire software stack, or if they would rather focus on writing
 their business logic.
 Doing so will give you an idea of where they will fit more naturally.
+
+## Conclusion
+
+For me this started as a thought experiment to understand why,
+despite the lack of clarity, I still find myself attracted to the
+term *systems programming*.
+I then used my own experience and intuitions to induce a definition
+for the term that put words to my gut-level intuitions about it.
+I rather doubt that framing the term this way will take off.
+The term has fallen out of regular use anyway.
+Still, I think it is helpful to have a catchall term to distinguish
+application programmers from all the other supporting disciplines,
+and I am not aware of any other term doing that today.
