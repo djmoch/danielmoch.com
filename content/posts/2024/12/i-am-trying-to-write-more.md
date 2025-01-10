@@ -16,6 +16,8 @@ Thoughfulness and absolutes make poor neighbors, and so with the
 new year it seems like a good time to reflect, in writing, on how
 I am using and plan to use this site in the next season of life.
 
+<!--more-->
+
 ## Past
 
 To review where I am coming from, apart from the occasional foray
