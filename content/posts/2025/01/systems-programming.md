@@ -5,6 +5,11 @@ categories: [technology]
 description: |
     Keeping a kind of systems programming in mind can help leaders
     organize teams and make hiring decisions.
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3lfn5dawi3k2i
+    mastodon: https://discuss.systems/@djmoch/113821943681262015
+    linkedin: https://www.linkedin.com/posts/djmoch_systems-programming-activity-7284650984838975492-t4Uz
 ---
 I'm not sure what *systems programming* means.
 It used to mean something like designing operating systems.
