@@ -7,11 +7,17 @@ Posts | {{ .Site.Title }}
 {{ define "main" }}
     {{ $pages := where site.RegularPages "Type" "posts" }}
 <table>
-	<h1>Post Index</h1>
+    <h1>Post Index</h1>
     {{ range $pages }}
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := .Date | time.Format "2006-01-02" }}
-      <tr><td><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></td><td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+      <tr>
+        <td class="table-date"><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+      </tr>
+        <td></td>
+        <td>{{ .Description }}</td>
+      </tr>
     {{ end }}
 </table>
 {{ end }}

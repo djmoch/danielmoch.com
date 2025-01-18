@@ -4,8 +4,20 @@ nav, main {
 	font-family: sans-serif;
 }
 
+main {
+	max-width: 40rem;
+}
+
 a {
 	color: $theme-color;
+}
+
+.footnote-ref, .footnote-backref {
+	text-decoration: none;
+}
+
+.footnote-ref {
+	font-size: smaller;
 }
 
 h1, h2, h3 {
@@ -26,6 +38,10 @@ img {
 
 #logo {
 	border-radius: 100px;
+}
+
+.table-date {
+	min-width: 6rem;
 }
 
 footer {
@@ -73,10 +89,6 @@ nav {
 	}
 }
 
-.post-summary {
-	max-width: 40rem;
-}
-
 .license-note {
 	font-size: small;
 	font-style: italic;
@@ -85,7 +97,7 @@ nav {
 .page {
 	display: flex;
 	margin: 5rem auto 3rem;
-	max-width: 80rem;
+	max-width: 60rem;
 	padding: 1rem;
 }
 

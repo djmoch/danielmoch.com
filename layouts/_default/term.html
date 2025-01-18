@@ -1,9 +1,17 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  <ul>
+  <table>
   {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format "2006-01-02" }}
+      <tr>
+        <td class="table-date"><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+      </tr>
+        <td></td>
+        <td>{{ .Description }}</td>
+      </tr>
   {{ end }}
-  </ul>
+  </table>
 {{ end }}
