@@ -7,6 +7,7 @@ body {
 
 main {
 	max-width: 40rem;
+	line-height: 1.25;
 }
 
 a {
@@ -94,6 +95,16 @@ nav {
 .license-note {
 	font-size: small;
 	font-style: italic;
+}
+
+sup, sub {
+	vertical-align: baseline;
+	position: relative;
+	top: -0.5em;
+}
+
+sub {
+	top: 0.5em;
 }
 
 .page {
