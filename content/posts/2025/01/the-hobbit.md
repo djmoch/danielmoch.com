@@ -3,6 +3,10 @@ title: 'The Hobbit'
 date: 2025-01-20T17:37:53-05:00
 categories: [microblog]
 description: On entering a new phase of parenting
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3lg7hg2y72s2u
+    mastodon: https://discuss.systems/@djmoch/113863210224997879
 ---
 Last night I started reading *The Hobbit* to my children, and they
 went to pieces as I read the following exchange:
