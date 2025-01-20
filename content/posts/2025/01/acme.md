@@ -3,6 +3,11 @@ title: 'Acme: The Un-Terminal'
 date: 2025-01-20T04:05:43-05:00
 categories: [technology]
 description: Reasons to prefer an integrating development environment
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3lg6jmnp3as2q
+    mastodon: https://discuss.systems/@djmoch/113861103836380487
+    linkedin: https://www.linkedin.com/posts/djmoch_plan9-acme-softwaredevelopment-activity-7287110904523943938-HhZa
 ---
 If you are not a software developer, you might be surprised to learn
 that a large subset of that community loves terminal-based user
