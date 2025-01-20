@@ -1,7 +1,8 @@
 $theme-color: #155799;
+$fonts: helvetica, arial, sans-serif;
 
 body {
-	font-family: sans-serif;
+	font-family: $fonts;
 	font-weight: lighter;
 }
 
@@ -23,7 +24,7 @@ a {
 }
 
 h1, h2, h3 {
-	font-family: sans-serif;
+	font-family: $fonts;
 	font-weight: initial;
 }
 
