@@ -1,0 +1,15 @@
+{{ $icons := dict
+  "caution" "fa-solid fa-circle-exclamation"
+  "important" "fa-solid fa-star"
+  "note" "fa-solid fa-note-sticky"
+  "tip" "fa-solid fa-lightbulb"
+  "warning" "fa-solid fa-triangle-exclamation"
+}}
+
+<div class="alert alert-{{ .AlertType }}">
+  <p class="alert-heading">
+    <i class="{{ index $icons .AlertType }}"></i>
+    {{ (title .AlertType) }}
+  </p>
+  {{ .Text }}
+</div>

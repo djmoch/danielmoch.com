@@ -1,4 +1,5 @@
 $theme-color: #155799;
+$accent-color: #e6811c;
 $fonts: helvetica, arial, sans-serif;
 
 body {
@@ -9,10 +10,26 @@ body {
 main {
 	max-width: 40rem;
 	line-height: 1.25;
+	a:visited {
+		color: $accent-color;
+	}
 }
 
 a {
 	color: $theme-color;
+}
+
+.alert {
+	border: 2px solid;
+	border-color: $theme-color;
+	p {
+		margin: 10px;
+	}
+}
+
+.alert-heading {
+	color: $theme-color;
+	font-weight: bold;
 }
 
 .footnote-ref, .footnote-backref {
