@@ -3,6 +3,11 @@ title: 'Hope and Other Things'
 date: 2025-01-27T06:32:59-05:00
 categories: [personal]
 description: Reflecting on an emotional journey
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3lgpvriqwfs26
+    mastodon: https://discuss.systems/@djmoch/113900236944634779
+    linkedin: https://www.linkedin.com/posts/djmoch_hope-and-other-things-activity-7289615495828283392-gPTT
 ---
 > [!NOTE]
 > This post is pretty different for me, and a little scary.
