@@ -1,5 +1,7 @@
 $theme-color: #155799;
 $accent-color: #e6811c;
+$color-dark: #ddd;
+$background-color-dark: #111;
 $fonts: helvetica, arial, sans-serif;
 
 body {
@@ -181,6 +183,13 @@ blockquote {
 
 .subtle:hover {
 	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: $color-dark;
+		background-color: $background-color-dark;
+	}
 }
 
 @media screen and (max-width: 768px) {
