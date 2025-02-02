@@ -7,6 +7,7 @@ params:
   social:
     bluesky: https://bsky.app/profile/danielmoch.com/post/3lg7hg2y72s2u
     mastodon: https://discuss.systems/@djmoch/113863210224997879
+    goodreads: https://www.goodreads.com/review/show/7282361039
 ---
 Last night I started reading *The Hobbit* to my children, and they
 went to pieces as I read the following exchange:
