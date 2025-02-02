@@ -3,6 +3,10 @@ title: 'Goodreads'
 date: 2025-02-02T09:54:10-05:00
 categories: [microblog]
 description: I am back on Goodreads
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3lh7crcylqk23
+    mastodon: https://discuss.systems/@djmoch/113934937311522656
 ---
 After about a ... *checks notes* ... 13-year hiatus, I have started
 maintaining my [Goodreads profile] again.
