@@ -1,36 +1,40 @@
-$theme-color: #155799;
-$accent-color: #e6811c;
-$color-dark: #ddd;
-$background-color-dark: #111;
-$fonts: helvetica, arial, sans-serif;
+:root {
+	--theme-color: #155799;
+	--accent-color: #e6811c;
+	--color-dark: #ddd;
+	--background-color-dark: #111;
+	--fonts: helvetica, arial, sans-serif;
+}
 
 body {
-	font-family: $fonts;
+	font-family: var(--fonts);
 	font-weight: lighter;
 }
 
 main {
 	max-width: 40rem;
 	line-height: 1.25;
-	a:visited {
-		color: $accent-color;
-	}
+}
+
+main a:visited {
+	color: var(--accent-color);
 }
 
 a {
-	color: $theme-color;
+	color: var(--theme-color);
 }
 
 .alert {
 	border: 2px solid;
-	border-color: $theme-color;
-	p {
-		margin: 10px;
-	}
+	border-color: var(--theme-color);
+}
+
+.alert p {
+	margin: 10px;
 }
 
 .alert-heading {
-	color: $theme-color;
+	color: var(--theme-color);
 	font-weight: bold;
 }
 
@@ -43,7 +47,7 @@ a {
 }
 
 h1, h2, h3 {
-	font-family: $fonts;
+	font-family: var(--fonts);
 	font-weight: initial;
 }
 
@@ -74,42 +78,48 @@ footer {
 nav {
 	max-width: 20rem;
 	padding: 0 4rem 0 2rem;
-	.menu-toggle {
-		display: none;
-		margin: 1rem 0;
-		border: 1px solid;
-		border-color: #000;
-		background-color: #fff;
-		font-size: inherit;
-		color: #000;
-	}
-	.nav-links {
-		margin-top: 1rem;
-	}
-	ul {
-		list-style: none;
-		padding: 1ch;
-	}
-	li {
-		font-size: larger;
-	}
+}
+
+.menu-toggle {
+	display: none;
+	margin: 1rem 0;
+	border: 1px solid;
+	border-color: #000;
+	background-color: #fff;
+	font-size: inherit;
+	color: #000;
+}
+
+.nav-links {
+	margin-top: 1rem;
+}
+
+nav ul {
+	list-style: none;
+	padding: 1ch;
+}
+
+nav li {
+	font-size: larger;
 }
 
 .social-badges {
-	li {
-		margin-right: 5px;
-	}
 	display: flex;
 	list-style: none;
+}
+
+.social-badges li {
+	margin-right: 5px;
 }
 
 #posse {
 	display: flex;
 	font-size: small;
-	ul {
-		margin: 0;
-		padding-left: 5px;
-	}
+}
+
+#posse ul {
+	margin: 0;
+	padding-left: 5px;
 }
 
 .license-note {
@@ -155,12 +165,10 @@ code {
 	background-color: #eee;
 }
 
-pre {
-	code {
-		padding: 5px;
-		display: block;
-		overflow-x: auto;
-	}
+pre code {
+	padding: 5px;
+	display: block;
+	overflow-x: auto;
 }
 
 h1, h2, h3, p {
@@ -187,8 +195,8 @@ blockquote {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		color: $color-dark;
-		background-color: $background-color-dark;
+		color: var(--color-dark);
+		background-color: var(--background-color-dark);
 	}
 }
 
@@ -203,20 +211,18 @@ blockquote {
 		display: flex;
 		flex-direction: column;
 		padding: 0;
-		.nav-links.collapsed {
-			display: none;
-		}
-		.menu-toggle {
-			display: block;
-			width: 90%;
-		}
-		ul {
-			li {
-				display: inline-block;
-			}
-			li:not(last-child) {
-				margin-right: .25rem;
-			}
-		}
+	}
+	.nav-links.collapsed {
+		display: none;
+	}
+	.menu-toggle {
+		display: block;
+		width: 90%;
+	}
+	nav ul li {
+		display: inline-block;
+	}
+	nav ul li:not(last-child) {
+		margin-right: .25rem;
 	}
 }
