@@ -61,6 +61,9 @@ copyright = '© 2017-2025 Daniel Moch'
       text = 'fa-brands fa-linkedin'
       ref = 'https://linkedin.com/in/djmoch'
     [[params.nav.links]]
+      text = 'fa-brands fa-goodreads'
+      ref = 'https://www.goodreads.com/djmoch'
+    [[params.nav.links]]
       text = 'fa-brands fa-signal-messenger'
       ref = 'https://signal.me/#eu/g0NwS-dMpH0llD92SlVWoQXhkWoSCrEaHZIaFTfkWDTmqnSKLc1CtptpsMS6uPyp'
 
