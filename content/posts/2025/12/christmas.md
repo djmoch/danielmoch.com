@@ -3,6 +3,11 @@ title: Christmas 2025
 date: 2025-12-25T05:52:13-06:00
 categories: [theology]
 description: Reflecting on Luke 2:25-35
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3masx2wlpnk2q
+    mastodon: https://discuss.systems/@djmoch/115780581884956496
+    linkedin: https://www.linkedin.com/posts/djmoch_merry-christmas-to-those-who-celebrate-here-activity-7410009521206525952-ZTa5
 ---
 
 > [!NOTE]
