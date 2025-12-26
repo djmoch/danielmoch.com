@@ -4,7 +4,6 @@ date: 2025-12-26T16:40:03-05:00
 categories: [personal]
 description: What Lookout Mountain looks like on this very mild
   December day.
-draft: true
 ---
 Happy second day of Christmas!
 I just got back from a short hike (around 3.5 miles) of Lookout
