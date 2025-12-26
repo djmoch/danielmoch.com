@@ -4,6 +4,10 @@ date: 2025-12-26T16:40:03-05:00
 categories: [personal]
 description: What Lookout Mountain looks like on this very mild
   December day.
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3mawbok2ueh2b
+    mastodon: https://discuss.systems/@djmoch/115788084094020118
 ---
 Happy second day of Christmas!
 I just got back from a short hike (around 3.5 miles) of Lookout
