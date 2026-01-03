@@ -2,7 +2,7 @@ baseURL = 'https://www.danielmoch.com/'
 languageCode = 'en-us'
 title = "Daniel Moch's Web Home"
 enableRobotsTXT = true
-copyright = '© 2017-2025 Daniel Moch'
+copyright = '© 2017-2026 Daniel Moch'
 
 [taxonomies]
   category = 'categories'
