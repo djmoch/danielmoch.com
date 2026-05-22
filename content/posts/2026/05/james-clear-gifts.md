@@ -3,6 +3,10 @@ title: 'An Uncomfortable Realization'
 date: 2026-05-22T08:05:29-04:00
 categories: [microblog]
 description: James Clear on habits as gifts
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3mmgwqxwez22t
+    mastodon: https://discuss.systems/@djmoch/116618216906954383
 ---
 James Clear recently asked, "If your family inherited only your
 habits ..., which ones would be your richest gifts?"[^jc]
