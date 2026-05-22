@@ -1,8 +1,11 @@
 baseURL = 'https://www.danielmoch.com/'
-languageCode = 'en-us'
 title = "Daniel Moch's Web Home"
 enableRobotsTXT = true
 copyright = '© 2017-2026 Daniel Moch'
+
+[languages]
+  [languages.en]
+    locale = 'en-us'
 
 [taxonomies]
   category = 'categories'
