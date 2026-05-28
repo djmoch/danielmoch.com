@@ -4,6 +4,10 @@ date: 2026-05-25T09:37:33-05:00
 categories: [personal]
 description: We are not afraid of the unknown so much as being
   unknown
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3mmossgu5yk2x
+    mastodon: https://discuss.systems/@djmoch/116635947656941910
 ---
 I've been reading James K.A. Smith's [*Make Your Home in This
 Luminous Dark*] and was taken aback by this passage commenting on
