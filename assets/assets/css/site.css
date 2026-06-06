@@ -226,3 +226,9 @@ blockquote {
 		margin-right: .25rem;
 	}
 }
+
+hr {
+	border: none;
+	height: 1px;
+	background-image: linear-gradient(to right, #f0f0f0, #8f8f8f, #f0f0f0);
+}
