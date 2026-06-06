@@ -4,6 +4,10 @@ author: Daniel Moch
 date: 2026-06-06T05:19:58-0500
 categories: [christianity]
 description: 'Big platforms draw bad actors, including in the church'
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3mnmxsy7vzc2n
+    mastodon: https://discuss.systems/@djmoch/116703850499732499
 ---
 For the past week I have been making my way through [*The Rise and
 Fall of Mars Hill*][mh], a podcast published by Christianity Today
