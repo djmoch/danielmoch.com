@@ -3,6 +3,11 @@ title: 'AI Coding Agents'
 date: 2026-10-15T07:46:44-0500
 categories: [software]
 description: Some quick advice on using AI coding tools
+params:
+  social:
+    bluesky: https://bsky.app/profile/danielmoch.com/post/3mxw5bm2blk24
+    mastodon: https://discuss.systems/@djmoch/117445089689023692
+    linkedin: https://lnkd.in/p/eVRmEbPH
 ---
 I've been a professional software engineer for 21 years.
 That's long enough to see several seismic changes in the way software
